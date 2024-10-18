@@ -4,3 +4,4 @@
         document.getElementById('currentYear').textContent = new Date().getFullYear();
     </script>
 </footer>
+

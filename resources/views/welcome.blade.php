@@ -42,9 +42,7 @@
         </div>
     </div>
 
-    <footer class="bg-gray-200 text-gray-700 py-4 text-center">
-        <p>&copy; <span id="currentYear"></span> WorkerSafe Pro. Todos los derechos reservados.</p>
-    </footer>
+
 
     <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -67,5 +65,6 @@
         yearSpan.textContent = currentYear;
     });
     </script>
+     <x-footer.php
 </body>
 </html>
