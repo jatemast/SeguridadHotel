@@ -13,7 +13,7 @@
 
             <ul id="sidebar-menu" class="flex-grow space-y-2 font-medium">
                 <li>
-                    <a href="#" onclick="dashboard()"
+                    <a href="{{ route('dashboard') }}" onclick="dashboard()"
                         class="flex items-center p-2 text-white rounded-lg hover:bg-[#141e2c] group">
                         <div class="flex-shrink-0 w-6 h-6">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-full h-full">
@@ -24,7 +24,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#" onclick="MANTENIMIENTO.()"
+                    <a href="{{ route('pintura.index') }}" onclick="MANTENIMIENTO.()"
                         class="flex items-center p-2 text-white rounded-lg hover:bg-[#bbbaba] group">
                         <div class="flex-shrink-0 w-6 h-6">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-full h-full">

@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use App\Models\Mantenimiento;
 class MantenimientoController extends Controller
 {
     /**
@@ -11,7 +11,8 @@ class MantenimientoController extends Controller
      */
     public function index()
     {
-        //
+
+        return view('mantenimientos.index');
     }
 
     /**
