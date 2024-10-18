@@ -25,7 +25,7 @@
         <h1 class="text-5xl font-extrabold text-center text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-green-500 mb-8 p-4 shadow-lg rounded-lg transform hover:scale-105 transition-transform duration-300">
             WorkerSafe Pro
         </h1>
-        
+
         <div class="fixed top-4 right-4 flex space-x-4 z-50">
             <a href="{{ route('login') }}" class="bg-blue-500 text-white px-4 py-2 rounded font-bold hover:bg-blue-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">Log in</a>
             <a href="{{ route('register') }}" class="bg-green-500 text-white px-4 py-2 rounded font-bold hover:bg-green-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">Register</a>
